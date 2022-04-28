@@ -1,0 +1,788 @@
+body{
+    font-family: 'Roboto';
+}
+
+.container{
+    max-width: 1200px;
+}
+
+/*****Header******/
+.name{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin: 0 0;
+}
+
+.mobile-header{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    padding: 25px 0;
+}
+
+.header a{
+    color: #0061A3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+.header p.balance-text{
+    margin-top: 8px;
+}
+
+.header p{
+    margin-bottom:0;
+}
+
+.balance{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.country{
+    margin-top: 8px;
+}
+
+.country span.language{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 6px;
+}
+
+.mobile-header div .menu, .mobile-header div .avatar{
+    margin-top: 14px;
+}
+
+/***Menu***/
+.navbar{
+    background: #F30000;
+    border-radius: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Roboto';
+    margin-top: 15px;
+}
+
+.navbar a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.navbar a:hover{
+    color: #FFFFFF;
+}
+
+.nav-link img{
+    padding-left: 10px;
+}
+
+.navbar>.container-fluid{
+    padding-right: 0;
+}
+
+.my-account {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 7.5px 38px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+}
+
+/******CONTENT*****/
+.banner-image{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.heading-bold{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.float-right{
+    float: right;
+}
+
+.card-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #5F5F5F;
+}
+
+a{
+    color: #0061A3;
+}
+
+.play-now{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.play-arrow{
+    font-size: 11px;
+}
+
+.banner-below-card .col-4{
+   width: 100%;
+   margin-bottom: 15px;
+}
+
+.banner-below-card{
+    margin: 15px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+.no-gutters > .col,.no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.card-image{
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.upcoming-lottery-draws {
+    margin: 75px 15px 15px 15px;
+}
+
+.upcoming-lottery-draws h4{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.mega-millions{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    margin-left: 7px;
+}
+
+.price{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color:  #13902A;
+}
+
+.card-lottery-draws{
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.card-lottery-image{
+    width: 141px;
+    height: 80px;
+    margin-right: 5px;
+}
+
+.upcoming-lottery-draws .col-4{
+    width: 100%;
+ }
+
+.card-lottery-draws{
+    padding: 5px;
+}
+
+.card-lottery-image {
+    margin-right: 23.25px;
+}
+
+.card-lottery-millions{
+    padding-top: 15px;
+}
+
+.play-now-button div button{
+    background: #F7D300;
+    border-radius: 8px;
+    width: 171px;
+    border-color: #F7D300;
+    color: #000000;
+    font-weight: 700;
+}
+
+.play-now-button div p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 12px;
+    color: #FFFFFF;
+}
+
+.play-now-button div p span{
+    margin-right: 5px;
+}
+
+
+.play-now-button{
+    background: #0061A3;
+    padding: 13px 12px 9px 8px;
+}
+
+.single-lotteries-mega-millions {
+    width: 182px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    float: left;
+    position: relative;
+    padding: 5px;
+}
+
+
+.upcoming-lotteries-online{
+    margin: 74px auto;
+    width: 98%;
+}
+
+.upcoming-lotteries-online .heading{
+    height: 45px;
+    background: #F30000;
+    border-radius: 8px;
+}
+
+.upcoming-lotteries-online div h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #FFFFFF;    
+    padding: 10.5px 0;
+}
+
+.upper-lotteries-mega-millions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.upper-lotteries-mega-millions div:nth-child(5){
+    margin-right: 0;
+}
+
+.lower-lotteries-mega-millions{
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.lotteries-mega-millions {
+    padding: 0;
+}
+
+.star{
+    position: absolute;
+    top: 10px;
+    right: 18px;
+}
+
+.price-lotteries{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.alarm-title{
+    color: #0061A3;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+p.alarm-title img {
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.play-now-lotteries{
+    background: #F7D300;
+    border-radius: 8px;
+    width: 160px;
+    border-color:#F7D300;
+    color: #000000;
+    font-weight: 700;
+}
+
+.play-now-lotteries:hover{
+    background: #F7D300;
+    border-color:#F7D300;
+    color: #000000;
+}
+
+.lower-lotteries-mega-millions div:last-child {
+    margin-right: 0;
+}
+
+.more-details{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    float: right;
+    color: #0061A3;
+}
+
+.mega-millions-lotteries{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    margin-left: 7px;
+    margin-top: 28.9px;
+}
+
+.single-lotteries-mega-millions:nth-of-type(odd) {
+    margin-right: 16px;
+}
+
+.lottery-winners div .heading {
+    height: 45px;
+    background: #F30000;
+    border-radius: 8px;
+}
+
+.lottery-winners div .heading h4{
+   text-align: center;
+   color: #FFFFFF;
+   padding: 10.5px 0;
+}
+
+.won{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.winners-amount{
+    text-align: center;
+}
+
+.winners-amount p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 22px;
+    color: #0061A3;
+    margin-top: 15px;
+}
+
+.winners-amount p img{
+    margin-right: 20px;
+}
+
+.winner-person-image{
+    position: relative;
+}
+
+.two-people{
+    position: absolute;
+    z-index: 1;
+    left: 28px;
+    top: 0;
+}
+
+.winner-text p:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.winner-text p:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.winner-text{
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.read-story{
+    margin-top: 31px;
+    margin-bottom: 34px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+   display: block;
+}
+
+.play-now-winners-lotteries{
+    background: #F7D300;
+    border-radius: 8px;
+    width: 182px;
+    border-color:#F7D300;
+    color: #000000;
+    font-weight: 700;
+    width: 232px;
+}
+
+
+.play-now-winners-lotteries:hover{
+    background: #F7D300;
+    border-color:#F7D300;
+    color: #000000;
+}
+
+.total-prizes {
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.total-prizes p{
+    margin-bottom: 2px;
+}
+
+.total-prizes p:nth-child(1) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+.total-prizes p:nth-child(2) {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 22px;
+    color: #13902A;
+}
+.total-prizes p:nth-child(3) {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.total-prizes p:nth-child(3) span{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.winner-list{
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+
+.winner-list div p{
+    margin: 0;
+}
+
+.winner-list div p:nth-child(1){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.winner-list div p:nth-child(2){
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.winner-list div p:nth-child(3){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5F5F5F;
+}
+
+.winner-list div p:nth-child(2) span{
+    margin-right: 5px;
+}
+
+.uk-lotto-results{
+    margin-top: 19.25px;
+    padding-left: 40px;
+}
+
+.uk-lotto-results div p:nth-child(1){
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.uk-lotto-results div p:nth-child(2){
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.uk-lotto-results div.col-6 p img{
+    margin-right: 4px;
+}
+
+.biggest-lottery-winner {
+    border: 1px solid #E0E0E0;
+    margin: 15px 0;
+    border-bottom: 0;
+}
+
+.faq .headings h4{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 93.96px;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0061A3;
+}
+
+.footer{
+    background:url(./images/footer-background.svg);
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    background-position: 36% -8%;
+}
+
+.live-chat{
+    margin-top: 100px;
+    margin-bottom: 36.37px;
+}
+
+.live-chat p{
+    margin-bottom: 0;
+}
+
+.live-chat div p:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.live-chat div p:nth-child(2){
+    font-size: 12px;
+    line-height: 21px;
+    color: #5F5F5F;
+}
+
+.live-chat div.col-10{
+    margin-left: 12px;
+}
+
+.footer h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.footer a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer ul{
+   padding-left: 0;
+}
+
+.footer ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.footer-three-section.row div.col-lg-3{
+    margin-right: 120px;
+    margin-top: 40px;
+}
+
+.footer-three-section.row div.col-lg-3 p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.footer-three-section.row div.col-lg-3 p:nth-child(3){
+    line-height: 25px;
+}
+
+.footer-three-section.row div.col-lg-3:last-child{
+    margin-right: 0px;
+    margin-top: 0;
+}
+
+.footer img{
+    margin-right: 8px;
+}
+
+.payment-methods{
+    margin-bottom: 30px;
+}
+
+.social-media-links{
+    margin-bottom: 39.37px;
+    margin-top: 18px;
+}
+
+/********Media Queries*********/
+
+@media (min-width: 576px) {
+    .header {
+        margin: 25px 0;
+    }
+  }
+
+  @media (min-width: 992px) { 
+    .banner-below-card .col-4{
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin-right: 15px;
+        width:31.60%;
+        padding: 4px 15px 4px 5px;
+        margin-bottom: 0;
+    }
+
+    .banner-below-card .col-4:nth-child(1), .upcoming-lottery-draws .col-4:nth-child(2){
+        margin-left:15px;
+     }
+
+     .banner-below-card {
+        margin: 0;
+    }
+
+     .upcoming-lottery-draws .col-4{
+        margin-right: 15px;
+        width: 31.60%;
+        padding: 0;
+     }
+
+     .upcoming-lottery-draws .row:nth-child(1){
+        padding-left: 28.45px;
+
+     }
+
+     .upcoming-lottery-draws{
+        margin: 75px 0 0 0;
+    }
+
+    .upcoming-lottery-draws h4{
+        margin-bottom: 30px;
+     }
+
+     .single-lotteries-mega-millions {
+        width: 208px;
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        padding: 5px;
+    }
+
+    .lotteries-mega-millions {
+        padding: 0 26px;
+    }
+
+    .play-now-lotteries{
+        background: #F7D300;
+        border-radius: 8px;
+        width: 182px;
+        border-color:#F7D300;
+        color: #000000;
+        font-weight: 700;
+    }
+
+    .single-lotteries-mega-millions:nth-of-type(odd) {
+        margin-right: 15px;
+    }
+
+    .winner-text{
+        text-align: none;
+        padding: 0;
+    }
+
+    .footer{
+        background:url(./images/footer-background.svg);
+        background-repeat: no-repeat;
+        margin-top: 80px;
+        padding: 0 108px;
+    }
+
+    .live-chat div.col-10{
+        margin-left: 0;
+    }
+
+    .social-media-links{
+        margin-top: 0;
+    }
+     
+  }
