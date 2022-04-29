@@ -40,7 +40,7 @@ body{
 }
 
 .header p.balance-text{
-    margin-top: 8px;
+    margin-top: 0.5px;
 }
 
 .header p{
@@ -57,6 +57,16 @@ body{
 
 .country{
     margin-top: 8px;
+    float: right;
+}
+
+.socialMedia {
+    float: right;
+    margin-top: 11px;
+}
+
+.socialMedia img {
+    margin-right: 8px;
 }
 
 .country span.language{
@@ -73,6 +83,14 @@ body{
     margin-top: 14px;
 }
 
+.logo div:nth-child(1){
+    width: 31.5%;
+}
+
+.logo div:nth-child(2){
+    margin-top: 10px;
+}
+
 /***Menu***/
 .navbar{
     background: #F30000;
@@ -81,6 +99,7 @@ body{
     padding-bottom: 0;
     font-family: 'Roboto';
     margin-top: 15px;
+    max-height: 34px;
 }
 
 .navbar a{
@@ -97,27 +116,43 @@ body{
     color: #FFFFFF;
 }
 
-.nav-link img{
-    padding-left: 10px;
+.nav-link {
+    padding: 5px 3px;
+}
+
+.nav-link img {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navbar>.container-fluid{
     padding-right: 0;
 }
 
+li.nav-item .active {
+    text-decoration: underline;
+}
+
 .my-account {
     color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
-    padding: 7.5px 38px;
+    background-color: #0061A3;
+    border-color: #0061A3;
+    padding: 3.7px 38px;
     position: absolute;
     right: 0;
     text-transform: uppercase;
+    border-radius: 8px;
+    top: 0;
+}
+
+.my-account:hover {
+    background-color: #0061A3;
+    border-color: #0061A3;
 }
 
 /******CONTENT*****/
 .banner-image{
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -140,6 +175,10 @@ body{
     color: #5F5F5F;
 }
 
+.card-heading{
+    margin-bottom: 5px;;
+}
+
 a{
     color: #0061A3;
 }
@@ -158,11 +197,15 @@ a{
 .banner-below-card .col-4{
    width: 100%;
    margin-bottom: 15px;
+   border: 1px solid #E0E0E0;
+   box-sizing: border-box;
+   border-radius: 8px;
 }
 
 .banner-below-card{
     margin: 15px;
-}
+}  
+
 
 .no-gutters {
     margin-right: 0;
@@ -181,7 +224,7 @@ a{
 }
 
 .upcoming-lottery-draws {
-    margin: 75px 15px 15px 15px;
+    margin: 50px 15px 15px 15px;
 }
 
 .upcoming-lottery-draws h4{
@@ -325,7 +368,7 @@ a{
 }
 
 .price-lotteries{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 0em;
@@ -393,13 +436,15 @@ p.alarm-title img {
 }
 
 .lottery-winners div .heading h4{
-   text-align: center;
-   color: #FFFFFF;
-   padding: 10.5px 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-top: 13.5px;
+    padding-bottom: 10.5px;
 }
 
 .won{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 28px;
     line-height: 36px;
     text-transform: uppercase;
@@ -485,6 +530,7 @@ p.alarm-title img {
     border: 1px solid #E0E0E0;
     box-sizing: border-box;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 .total-prizes p{
@@ -552,6 +598,11 @@ p.alarm-title img {
     margin-right: 5px;
 }
 
+.winner-list-last{
+    height: 39px;
+    overflow: auto;
+}
+
 .uk-lotto-results{
     margin-top: 19.25px;
     padding-left: 40px;
@@ -562,13 +613,15 @@ p.alarm-title img {
     font-size: 14px;
     line-height: 120%;
     text-transform: uppercase;
-    color: #000000;
+    color: #000000;  
+    margin-bottom: 4px;
 }
 
 .uk-lotto-results div p:nth-child(2){
     font-size: 12px;
     line-height: 130%;
     color: #000000;
+    margin-left: 9px;
 }
 
 .uk-lotto-results div.col-6 p img{
@@ -604,13 +657,17 @@ p.alarm-title img {
     background-position: 36% -8%;
 }
 
-.live-chat{
-    margin-top: 100px;
-    margin-bottom: 36.37px;
+.live-chat {
+    margin-top: 134px;
+    margin-bottom: 0;
 }
 
 .live-chat p{
     margin-bottom: 0;
+}
+
+.live-chat div:nth-child(1){
+    width: 5%;
 }
 
 .live-chat div p:nth-child(1){
@@ -627,7 +684,7 @@ p.alarm-title img {
 }
 
 .live-chat div.col-10{
-    margin-left: 12px;
+    margin-left: 20px;
 }
 
 .footer h4{
@@ -636,6 +693,7 @@ p.alarm-title img {
     line-height: 21px;
     text-transform: uppercase;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 .footer a{
@@ -679,6 +737,7 @@ p.alarm-title img {
 
 .footer img{
     margin-right: 8px;
+    margin-bottom: 8px;
 }
 
 .payment-methods{
@@ -686,7 +745,7 @@ p.alarm-title img {
 }
 
 .social-media-links{
-    margin-bottom: 39.37px;
+    margin-bottom: 25.37px;
     margin-top: 18px;
 }
 
@@ -705,7 +764,7 @@ p.alarm-title img {
         border-radius: 8px;
         margin-right: 15px;
         width:31.60%;
-        padding: 4px 15px 4px 5px;
+        padding: 4px 0px 4px 5px;
         margin-bottom: 0;
     }
 
@@ -773,8 +832,10 @@ p.alarm-title img {
     .footer{
         background:url(./images/footer-background.svg);
         background-repeat: no-repeat;
-        margin-top: 80px;
+        margin-top: 65px;
         padding: 0 108px;
+        background-position: 0% 5%;
+        margin-bottom: 50px;
     }
 
     .live-chat div.col-10{
@@ -783,6 +844,25 @@ p.alarm-title img {
 
     .social-media-links{
         margin-top: 0;
+    }
+
+    .winner-text{
+        text-align: left;
+        padding: 15px 15px;
+    }
+
+    .uk-lotto-results div:nth-child(1){
+        width: 34%;
+        margin-top: 2px;
+    }
+
+    .displaynone{
+        display: none;
+    }
+
+    .banner-image{
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
      
   }
